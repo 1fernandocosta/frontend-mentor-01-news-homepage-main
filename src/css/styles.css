@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(36, 100%, 99%);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.box-geral {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+
+section {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.topo {
+    display: block;
+    margin: 0 auto;
+    height: 184px;
+    position: relative;
+}
+
+.logo {
+    width: 64px;
+    height: 40px;
+    float: left;
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 89px;
+}
+
+.menu {
+    float: right;
+    margin-top: 103px;
+}
+
+#nav{
+    display: none;
+}
+
+.menu ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+.menu a {
+    color: hsl(236, 13%, 42%);
+}
+
+.menu a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+main {
+    height: 511px;
+    /* background-color: aquamarine; */
+
+}
+
+.main {
+    width: 730px;
+    float: left;
+}
+
+.img-main {
+    width: 730px;
+    height: 300px;
+    float: left;
+    display: block;
+    background-image: url("../img/image-web-3-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.text01-main {
+    width: 360px;
+    float: left;
+    color: hsl(240, 100%, 5%);
+    margin-top: 42px;
+    line-height: 0.9;
+}
+
+.text01-main p {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.text02-main {
+    width: 343px;
+    float: left;
+    font-size: 15px;
+    margin-top: 37px;
+    margin-left: 15px;
+    line-height: 1.6;
+    color: hsl(236, 13%, 42%);
+}
+
+.text02-main a {
+    padding: 20px 30px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 900;
+    float: left;
+    margin-top: 14px;
+}
+
+.text02-main a:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.column-right {
+    width: 350px;
+/*    height: 511px;*/
+    padding: 25px;
+    float: right;
+    /*margin-top: -300px;*/
+    background-color: hsl(240, 100%, 5%);
+}
+
+.column-right h1 {
+    font-size: 60px;
+    float: left;
+    width: 100%;
+    color: hsl(35, 77%, 62%);
+}
+
+.column-right a {
+    color: hsl(36, 100%, 99%);
+    font-size: 20px;
+    float: left;
+    margin: 20px 0 10px 0;
+    font-weight: 900;
+}
+
+.column-right a:hover {
+    color: hsl(35, 77%, 62%);
+
+}
+
+.column-right p {
+    float: left;
+    color: hsl(233, 8%, 79%);
+    line-height: 1.9;
+}
+
+.line {
+    width: 100%;
+    float: left;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+footer {
+    height: 275px;
+}
+
+.footers {
+    width: 350px;
+    margin-top: 72px;
+    margin-bottom: 80px;
+    float: left;
+}
+
+.footers.img-footer-1 {
+    background-image: url("../img/image-retro-pcs.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    height: 126px;
+}
+
+.footers.img-footer-2 {
+    background-image: url("../img/image-top-laptops.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    float: left;
+    height: 126px;
+}
+
+.footers.img-footer-3 {
+    background-image: url("../img/image-gaming-growth.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    float: left;
+    height: 126px;
+}
+
+
+.footers h1 {
+    float: left;
+    margin-left: 124px;
+    color: hsl(233, 8%, 79%);
+    font-size: 30px;
+}
+
+.footers a {
+    margin-left: 124px;
+    color: hsl(240, 100%, 5%);
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.footers a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.footers p {
+    float: left;
+    margin-left: 124px;
+    color: hsl(236, 13%, 42%);
+}
+
+.footers.footer-1 {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+/*
+.site {
+    color:
+    hsl(35, 77%, 62%) 
+    hsl(5, 85%, 63%) 
+    hsl(36, 100%, 99%) 
+    hsl(233, 8%, 79%) 
+    hsl(236, 13%, 42%)
+    hsl(240, 100%, 5%)
+
+
+    hsl(250, 6%, 79%)
+
+    hsl(60, 100%, 100%)
+    hsl(36, 75%, 60%)
+    hsl(34, 100%, 95%)
+    hsl(240, 100%, 5%)
+    hsl(48, 71%, 99%)
+}*/
