@@ -4,7 +4,7 @@ Esta é uma solução para o [News homepage challenge on Frontend Mentor](https:
 
 ### Screenshot
 
-![Screenshot](https://github.com/1fernandocosta/frontend-mentor-01-news-homepage-main/screenshot.jpg)
+![Screenshot](https://github.com/1fernandocosta/frontend-mentor-01-news-homepage-main/blob/main/screenshot.jpg)
 
 ### Links
 
